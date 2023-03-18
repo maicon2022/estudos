@@ -1,3 +1,1 @@
-a = 10
-b = 30
-print(a+b, "Maicon Felipe")
+print("Estudos Python sincronizados no GITHUB")
