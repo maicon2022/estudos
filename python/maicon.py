@@ -19,8 +19,10 @@ print("Estudos Python sincronizados no GITHUB")
 # print(linha)
 # arquivo.close()
 
-arquivo = open("python/maicon.txt","r")
-for linha in arquivo:
-    campo = linha.split(',')
-    print('nome =',campo[0],'\tidade =',campo[1],'\tsexo',campo[2],end='')
-arquivo.close()    
+
+print()
+'''Na opção do with open o arquivo é fechado automaticamente ao alcançar seu fim!'''
+with open("python/maicon.txt","r") as arquivo:
+    for linha in arquivo:
+        campo = linha.split(',')
+        print('nome =',campo[0],'\tidade =',campo[1],'\tsexo =',campo[2],end='')
