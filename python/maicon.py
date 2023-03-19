@@ -1,11 +1,11 @@
 print("Estudos Python sincronizados no GITHUB")
 
 '''Criação de arquivo texto através de python'''
-arquivo = open("python/maicon.txt","a")
-arquivo.write("Marcone,53,Masculino\n")
-arquivo.write("Maicon,21,Masculino\n")
-arquivo.write("Emily,13,Masculino\n")
-arquivo.close()
+# arquivo = open("python/maicon.txt","a")
+# arquivo.write("Marcone,53,Masculino\n")
+# arquivo.write("Maicon,21,Masculino\n")
+# arquivo.write("Emily,13,Masculino\n")
+# arquivo.close()
 
 # arquivo = open("python/maicon.txt","r")
 # linha = arquivo.readline()
