@@ -1,12 +1,12 @@
 const dataset = [
   {
     id: 1,
-    name: 'Hambúrguer',
+    name: 'Hambúrguer Duplo',
     image: 'imgs/hamburguer.jpg',
   },
   {
     id: 2,
-    name: 'Sanduíche',
+    name: 'Sanduíche Natural',
     image: 'imgs/sanduiche.jpg',
   },
   {
@@ -16,7 +16,7 @@ const dataset = [
   },
   {
     id: 4,
-    name: 'Suco',
+    name: 'Suco de Laranja',
     image: 'imgs/suco.jpg',
   },
 ];
